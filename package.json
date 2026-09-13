@@ -1,0 +1,14 @@
+{
+  "name": "ai-studio-applet",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "serve . -p 3000",
+    "build": "mkdir -p dist && cp -r index.html style.css script.js *.png *.jpg *.jpeg *.webp dist/ 2>/dev/null || cp index.html style.css script.js dist/",
+    "start": "serve dist -p 3000",
+    "lint": "echo 'No lint'"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
