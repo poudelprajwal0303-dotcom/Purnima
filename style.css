@@ -225,6 +225,12 @@ body.hovering .cursor-outline {
     width: 100%;
 }
 
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .theme-toggle {
     background: none;
     border: none;
